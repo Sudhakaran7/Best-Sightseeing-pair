@@ -1,0 +1,56 @@
+Given an array A of positive integers, A[i] represents the value of the i-th sightseeing spot, and two sightseeing spots i and j have distance j - i between them.
+The score of a pair (i < j) of sightseeing spots is (A[i] + A[j] + i - j) : the sum of the values of the sightseeing spots, minus the distance between them.
+Return the maximum score of a pair of sightseeing spots.
+
+Input Description:
+First line contains N the size of array A.(1<N<100)
+Second line contains, N elements of integers in a array.
+
+Output Description:
+Print the maximum score of a pair of sightseeing spots.
+
+Sample Input:
+5
+8 1 5 2 6
+
+Sample Output:
+11
+
+Explanation:
+From the given array, i = 0, j = 2, A[i] + A[j] + i - j = 8 + 5 + 0 - 2 = 11,
+So the output is 11.
+
+Sample Input:
+6
+12 33 23 44 17 18
+
+Sample Output:
+75
+
+Sample Input:
+4
+2 6 4 9
+
+Sample Output:
+13
+
+Sample Input:
+7
+9 11 14 23 26 32 37
+
+Sample Output:
+68
+
+Sample Input:
+6
+23 14 15 67 89 33
+
+Sample Output:
+155
+
+Sample Input:
+5
+1 2 3 4 5
+
+Sample Output:
+8
